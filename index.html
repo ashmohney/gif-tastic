@@ -8,32 +8,59 @@
     <!-- Load the bootstrap stuff -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
-    <!-- Load Jquery -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <!-- Load Cloudflare for jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <!-- Load Bootsrap -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
     <!-- Load Stylesheet -->
     <link rel="stylesheet" href="./assets/style/main.css" type="text/css">
-    <title>Stack Starter</title>
+    <title>gifTastic</title>
 
 </head>
 
 <body>
-    <h1>Stack Starter</h1>
+    
+    <div class="container">
+        <nav id="nav1"class="navbar  justify-content-center">
+            <a class="navbar-brand"><span>Click on any button to see gifs.</span></a><a class="navbar-brand"><span> Click gif to animate.</span></a>
+        </nav>
+       
+        <nav id="nav2" class="navbar navbar-light justify-content-between">
+            <span id="nav2-text" class="navbar-text"> Use Search to find new topics and create new buttons!
+            </span>
+            
+                <form class="form-inline">
+                    <input id="gif-UserInput" class="form-control mr-sm-2" type="search" placeholder="New Topic" aria-label="Search">
+                    <button id="topic-btn" class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+                </form>
+        </nav>
+        
+    
+    <div class="container action-area">
+        <div id="place-btns" class="row text-center">
+
+        </div>
+            
+    </div>
+    
+    <div class="container action-area">
+        <div id="gifs-place">
+
+        </div>
+       
+    </div>
 
 
+    </div>  
 
 
-
-
-
-
+<!-- Load Jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+     crossorigin="anonymous"></script>
+<!-- Load Cloudflare for jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+     crossorigin="anonymous"></script>
+<!-- Load Bootsrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+     crossorigin="anonymous"></script>
     <script src="./assets/scripts/main.js"></script>
+    <script type="text/javascript"></script>
 </body>
 
 </html>
